@@ -1,0 +1,71 @@
+$navy: #000080;
+$indent_m: 25px;
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: pink;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0;
+
+  .nav-link {
+    color: grey;
+    padding-left: $indent_m;
+    padding-right: $indent_m;
+
+    &:hover {
+      color: $navy;
+    }
+  }
+}
+
+#link:hover{
+  color: $navy;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: row;
+  max-height: 500px;
+
+  @media only screen and (max-width: 750px) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+  }
+
+  ul {
+    padding-left: $indent_m;
+    padding-right: $indent_m;
+    max-width: 300px;
+
+    li {
+      list-style-type: square;
+      line-height: 2;
+    }
+  }
+}
+
+#photo-of-me {
+  max-width: 400px;
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.card-deck {
+  position: relative;
+}

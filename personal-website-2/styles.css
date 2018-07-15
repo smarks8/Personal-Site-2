@@ -1,0 +1,53 @@
+img {
+  width: 100%; }
+
+h1 {
+  color: pink;
+  text-align: center;
+  width: 100%;
+  text-align: center; }
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  list-style-type: none;
+  padding-left: 0; }
+  .nav .nav-link {
+    color: grey;
+    padding-left: 25px;
+    padding-right: 25px; }
+    .nav .nav-link:hover {
+      color: #000080; }
+
+#link:hover {
+  color: #000080; }
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: row;
+  max-height: 500px; }
+  @media only screen and (max-width: 750px) {
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 250px; } }
+  .about-content ul {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 300px; }
+    .about-content ul li {
+      list-style-type: square;
+      line-height: 2; }
+
+#photo-of-me {
+  max-width: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: auto; }
+
+.card-deck {
+  position: relative; }

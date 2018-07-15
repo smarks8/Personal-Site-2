@@ -1,0 +1,44 @@
+h1{
+  color: pink;
+  text-align: center;
+}
+
+.nav-link{
+  color: grey;
+}
+
+.nav-link:hover, #link:hover{
+  color: #000080;
+}
+
+.contact, .about, .card-deck{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#map{
+  max-width: 45%;
+  max-height: 50%
+}
+
+#photo-of-me{
+  float:left;
+  max-width: 50%;
+  height: auto;
+  border-radius: 15px;
+  border: 1px solid #000080;
+}
+
+.card{
+  border: 1px solid gray;
+}
+
+#review{
+  color: grey;
+  font-style: italic;
+}
+
+#link{
+  color: pink;
+}
